@@ -1,0 +1,15 @@
+head
+  title= title
+  body
+  form(action='/Login/mUsuario', method='post')
+   div
+    label(for='username') Usuario 
+    input(id='username',type='text',value=userPug,name='username',readonly)
+   div
+    label(for='password') Password
+    input(id='password',type='text',value=passPug,name='password')
+   div
+    label(for='mail') Email
+    input(id='mail',type='text',value=mailPug,name='mail')
+   button(type='submit',name='buttonModifircar') Modificar
+   

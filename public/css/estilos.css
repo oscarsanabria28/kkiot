@@ -1,0 +1,228 @@
+body{
+	margin:0;
+	padding: 0;
+	background-image:url(../images/fondo_login.jpg);
+	background-size: 1370px 720px;
+	background-repeat:repeat-x;
+    background-repeat: repeat-y;	
+}
+
+#container{
+width: 550px;
+}
+
+#content{
+
+	margin-top: 15px;
+	position: absolute;
+  	top: 50%; 
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	padding: 35px 35px 35px 35px; 	
+	font-size: 30px;
+	color: white; 
+}
+
+
+input{
+	width: 200px;
+	height: 30px;
+	font-size: 25px;
+	display: block;
+    margin: 5px auto;
+}
+
+
+button{
+	width: 100px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 30px;
+	display: block;
+    margin: 5px auto;
+	cursor:pointer;
+	
+
+}
+
+img{
+	display: block;
+    margin: 0 auto;
+	width: 200px;
+	height: 150px;
+	 
+}
+h1{
+	font-size: 35px;
+	color: #ffffff;
+	text-align: center; 
+   
+}
+#botonU{
+
+	width: 180px;
+	height: 100px;
+	border-radius: 5px;
+	font-size: 25px;
+    margin: 5px auto;
+	background-color: #e7e7e7; 
+	color: black;
+	border: solid 10px #179FBA;
+	border-radius: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor:pointer;
+	
+} 
+#botonU:hover{
+
+	width: 180px;
+	height: 100px;
+	border-radius: 5px;
+	font-size: 25px;
+    margin: 5px auto;
+	background-color: #179FBA; 
+	color: white;
+	border: solid 10px #179FBA;
+	border-radius: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+}
+
+#botonCenter{
+	text-align:center;
+	margin:100px auto;
+}
+
+#textfield{
+	width: 300px;
+	font-size: 20px;
+	border: 2px solid #00E2FF;
+    border-radius: 4px;
+	background-color: #FFFFFF;
+    color: 00457D;
+}
+#mlabel{
+	
+	text-align:center;
+    color: white;
+	display: block;
+    margin: 20px auto;
+	font-size:25px;
+}
+
+#mButton{
+
+	width: 180px;
+	height: 100px;
+	border-radius: 5px;
+	font-size: 25px;
+    margin: 5px auto;
+	background-color: #e7e7e7; 
+	color: black;
+	border: solid 10px #179FBA;
+	border-radius: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor:pointer;
+	
+} 
+#mButton:hover{
+
+	width: 180px;
+	height: 100px;
+	border-radius: 5px;
+	font-size: 25px;
+    margin: 5px auto;
+	background-color: #179FBA; 
+	color: white;
+	border: solid 10px #179FBA;
+	border-radius: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+	
+	
+}
+
+table {
+    border-collapse: collapse;
+	border-radius: 12px;
+	display: block r;
+    text-align:center;
+	margin: 0 auto;
+}
+
+
+table,th, td,tr{
+
+	 border: 1px solid black;
+	 
+	 color:white;
+}
+tr:hover {background-color: black}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#mButton2{
+
+	width: 180px;
+	height: 100px;
+	border-radius: 5px;
+	font-size: 25px;
+    margin: 5px auto;
+	background-color: #e7e7e7; 
+	color: black;
+	border: solid 10px #4CAF50;
+	border-radius: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	cursor:pointer;
+	
+} 
+#mButton2:hover{
+
+	width: 180px;
+	height: 100px;
+	border-radius: 5px;
+	font-size: 25px;
+    margin: 5px auto;
+	background-color: #4CAF50; 
+	color: white;
+	border: solid 10px #4CAF50;
+	border-radius: 12px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    cursor:pointer;
+	
+}
+
+#seleccion{
+	width: 300px;
+	font-size: 20px;
+	border: 2px solid #4CAF50;
+    border-radius: 4px;
+	background-color: #FFFFFF;
+    color: 00457D;
+	display: block;
+    margin: 0 auto;
+}
+
+#imagen{
+	margin-right:250px;
+	margin-top:250px;
+	text-align: right; 
+	
+}
+
+

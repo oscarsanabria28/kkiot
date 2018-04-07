@@ -1,0 +1,17 @@
+html
+ head
+  title= title
+  link(rel="stylesheet", type="text/css", href="/css/estilos.css")
+  body
+   form(action='/Login/mUsuario', method='post')
+    div
+     label(id="mlabel",for='username') Usuario 
+     input(id="textfield",type='text',value=userPug,name='username',readonly)
+    div
+     label(id="mlabel",for='password') Password
+     input(id="textfield",type='text',value=passPug,name='password')
+    div
+     label(id="mlabel",for='mail') Email
+     input(id="textfield",type='text',value=mailPug,name='mail')
+    button(id="mButton",type='submit',name='buttonModifircar') Modificar
+   

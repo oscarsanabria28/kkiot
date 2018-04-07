@@ -1,0 +1,40 @@
+<html>
+
+    <head>
+		
+        <title>Bienvenido</title>
+		<link rel="stylesheet" type="text/css" href="/css/estilos.css">
+    </head>
+
+
+    <body>
+		
+		<div id="botonCenter">
+			<div>
+				<form action="http://localhost:8000/Login/crearUsuario" enctype="application/x-www-form-urlencoded" method="GET">
+					<button id="botonU" type="submit" name="crearUsuario">Crear Usuario</button>
+				</form>
+			</div>
+			<div>
+				<form action="http://localhost:8000/Login/editarDatos" enctype="application/x-www-form-urlencoded" method="GET">
+					<button id="botonU" type="submit" name="buttonEditar">Editar Datos</button>
+				</form>
+			</div>
+			
+			<div>
+				<form action="http://localhost:8000/Login/log" enctype="application/x-www-form-urlencoded" method="GET">
+					<button id="botonU" type="submit" name="buttonLog">Registros</button>
+				</form>
+			</div>
+			
+			<div>
+				<form action="http://localhost:8000/Login/quitarSession" enctype="application/x-www-form-urlencoded" method="GET">
+					<button id="botonU" type="submit" name="buttonLogout">Log out!</button>
+				</form>
+			</div>
+		</div>
+		
+
+    </body>
+
+</html>
